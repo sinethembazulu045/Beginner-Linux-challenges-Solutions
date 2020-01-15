@@ -1,0 +1,153 @@
+Task 1 : Basic Task
+#1
+~$ ls
+
+#2
+~$ pwd
+
+#3
+~$ cd workspace
+
+#4
+~/workspace$ ls
+
+#5
+~/workspace$ touch [README.md]
+
+#6
+~/workspace$ cp [README.md] CHANGELOG.md
+
+Task 2: Absolute and Relative Paths
+#1
+~$ touch excercise.md
+~$ls
+~$ mv excercise.md /tmp
+~$ rm /tmp/exercise.md
+
+Task 3 : cat commands
+#1
+~$ cat >umuzi.md
+~$ cat > recruits.md
+~$ cat > cohort.md
+#2
+~$ echo "It's nice to be part of umuzi" >umuzi.md
+~$ echo " I enjoyed working with recruits from different departments" >recruits.md
+~$ echo " Corhot20 is the most amazing group ever" >cohort.md
+
+#3
+~$ cat umuzi.md recruits.md cohort 
+#4
+~$ cat umuzi.md recruits.md cohort >summary.md
+#5
+~$ echo 'The End' >> summary.md
+~$ cat summary.md
+
+Task 4: The Locate command
+#1
+~$ sudo updatedb
+~$ locate umuzi
+
+#2
+
+~$ touch seach_result.md
+~$ locate umuzi > search_result.md
+~$ cat search_result.md
+
+Task 5: The locate command cont...
+
+#1
+~$ cd Documents
+~/Documents$ touch pad.md
+
+#2
+~/Documents$ cd ~/Desktop
+~/Desktop$ mkdir work
+
+#3
+Task 1 : Basic Task
+#1
+~$ ls
+
+#2
+~$ pwd
+
+#3
+~$ cd workspace
+
+#4
+~/workspace$ ls
+
+#5
+~/workspace$ touch [README.md]
+
+#6
+~/workspace$ cp [README.md] CHANGELOG.md
+
+Task 2: Absolute and Relative Paths
+#1
+~$ touch excercise.md
+~$ls
+~$ mv excercise.md /tmp
+~$ rm /tmp/exercise.md
+
+Task 3 : cat commands
+#1
+~$ cat >umuzi.md
+~$ cat > recruits.md
+~$ cat > cohort.md
+#2
+~$ echo "It's nice to be part of umuzi" >umuzi.md
+~$ echo " I enjoyed working with recruits from different departments" >recruits.md
+~$ echo " Corhot20 is the most amazing group ever" >cohort.md
+
+#3
+~$ cat umuzi.md recruits.md cohort 
+#4
+~$ cat umuzi.md recruits.md cohort >summary.md
+#5
+~$ echo 'The End' >> summary.md
+~$ cat summary.md
+
+Task 4: The Locate command
+#1
+~$ sudo updatedb
+~$ locate umuzi
+
+#2
+
+~$ touch seach_result.md
+~$ locate umuzi > search_result.md
+~$ cat search_result.md
+
+Task 5: The locate command cont...
+
+#1
+~$ cd Documents
+~/Documents$ touch pad.md
+
+#2
+~/Documents$ cd ~/Desktop
+~/Desktop$ mkdir work
+
+#3
+~$ cp Documents
+~$ cp pad.md pad_copy pad_copy.md
+
+#4
+~$ sudo updatedb
+~$ locate pad_copy.md
+
+#5
+~$ cd ..
+
+#6
+~$ locate pad_copy.md
+
+
+
+
+
+
+
+
+
