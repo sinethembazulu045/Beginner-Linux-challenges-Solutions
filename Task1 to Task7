@@ -155,12 +155,24 @@ Task 6 Find commands
 ~$ find ~/ -name *.pdf > search
 
 #3
-~$ find -mtime -1 -ls
-
+~$ find . type f -newrmt 2020-01-16 -ls
+# that were modified on the 16th of Jan 2020.
 
 Task 7 Text editor
 
 #1
+nano my_bio.md
+
+#2
+#Crl o Enter to save then Crl x to close or exit.
+
+#3
+
+~$ mkdir my_file.md
+~$ mv my_bio.md my_file.md
+
+
+
 
 
 
