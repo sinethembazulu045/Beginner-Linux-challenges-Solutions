@@ -1,9 +1,10 @@
 Task 1 : Basic Task
 #1
-~$ ls
+~$ ls   #
+When I type ls and enter, I see the list of folders and files within my current directory.It means that ls is the command line for showing all files in my current directory.
 
 #2
-~$ pwd
+~$ pwd  #When I type pwd command I see the actual full path to my current working directory.pwd means present working directory
 
 #3
 ~$ cd workspace
