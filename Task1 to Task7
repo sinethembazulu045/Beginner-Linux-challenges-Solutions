@@ -121,6 +121,8 @@ Task 4: The Locate command
 
 Task 5: The locate command cont...
 
+
+
 #1
 ~$ cd Documents
 ~/Documents$ touch pad.md
@@ -142,6 +144,28 @@ Task 5: The locate command cont...
 
 #6
 ~$ locate pad_copy.md
+
+
+Task 6 Find commands
+
+#1
+~$ find ~/ -name *.pdf
+
+#2
+~$ find ~/ -name *.pdf > search
+
+#3
+~$ find -mtime -1 -ls
+
+
+Task 7 Text editor
+
+#1
+
+
+
+
+
 
 
 
